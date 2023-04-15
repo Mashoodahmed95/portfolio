@@ -5,7 +5,7 @@ html, body {
 	padding: 0;
 }
 
-/* Add a fullscreen background image */
+/* homepage */
 #homepage {
 	background-image: url('./assets/images/home-bg.png');
 	background-position: center;
@@ -14,6 +14,7 @@ html, body {
 	background-color: #555;
 	height: 100%;
 }
+
 #homepage-text{
 	padding-top: 30%;
 }
@@ -46,9 +47,6 @@ html, body {
 }
 
 
-.hidden-spacer{
-	height: 120px;
-}
 
 /* Footer */
 footer {
@@ -56,13 +54,6 @@ footer {
   
 }
   
-
-/* footer i {
-	font-size: 24px;
-	margin-right: 10px;
-	color: #555;
-} */
-
 
 @media all and (max-width: 499px) {
     #homepage {
