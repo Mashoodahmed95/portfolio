@@ -1,0 +1,91 @@
+/* Make the body element full height */
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+/* Add a fullscreen background image */
+#homepage {
+	background-image: url('./assets/images/home-bg.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #555;
+	height: 100%;
+}
+#homepage-text{
+	padding-top: 30%;
+}
+
+#aboutpage {
+	background-image: url('./assets/images/about-bg.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #555;
+	height: 100%;
+}
+#aboutpage-text{
+	padding-top: 20%;
+}
+
+
+#contactpage{
+	background-image: url('./assets/images/contact-bg.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #555;
+	height: 100%;
+
+}
+
+#contactpage-text{
+	padding-top: 20%;
+}
+
+
+.hidden-spacer{
+	height: 120px;
+}
+
+/* Footer */
+footer {
+	background-color: #F3F1F1;
+  
+}
+  
+
+/* footer i {
+	font-size: 24px;
+	margin-right: 10px;
+	color: #555;
+} */
+
+
+@media all and (max-width: 499px) {
+    #homepage {
+        background-image: url('./assets/images/mobile-home-bg.png')
+    }
+	#homepage-text{
+		padding-top: 95%;
+		
+	}
+	#aboutpage {
+        background-image: url('./assets/images/mobile-about-bg.png')
+    }
+	#aboutpage-text{
+		padding-top: 45%;
+		padding-left: 5%;
+		padding-right: 10%;
+	}
+	#contactpage {
+        background-image: url('./assets/images/mobile-contact-bg.png')
+    }
+	#contactpage-text{
+		padding-top: 60%;
+		padding-left: 5%;
+		padding-right: 10%;
+	}
+}
